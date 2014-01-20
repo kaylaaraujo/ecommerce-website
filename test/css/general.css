@@ -1,0 +1,151 @@
+/*
+  Colour Palette OPTION 1
+  - Blue-Black: rgb(0,12,47)
+  - rusty orange (accent colour): rgb(194,107,0)
+  - Dark Grey: rgb(125,125,125)
+  
+  Colour Palette OPTION 2
+  - Light yellow-green: rgb(247,253,151)
+  - Dark Blue (accent colour):rgb(0,54,110)
+  - Dark Grey: rgb(125,125,125)
+ 
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  font: normal 100%/1.5 Open Sans Condensed, sans-serif;
+  color: rgb(125,125,125);
+}
+
+::selection {
+	background-color: rgba(194,107,0,.3);
+	color: rgb(194,107,0);	
+}
+
+a,
+a:link {
+	color: rgb(194,107,0);
+	text-decoration: none;
+	border-bottom: 0.1em solid rgba(194,107,0,.8);
+	transition: all 200ms linear;
+}
+
+a:visited {
+	color: rgb(125,125,125);
+	border-bottom-color: rgb(125,125,125);
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: rgba(194,107,0,.5);
+	border-bottom-color: rgba(194,107,0,.5);
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+  color: rgb(0,12,47);
+}
+
+dt {
+	margin-left: 3%;
+}
+
+.yotta {
+  font-size: 4.6784rem;
+  line-height: 1.3154;
+}
+
+.zetta {
+  font-size: 3.8147rem;
+  line-height: 1.4798;
+}
+
+h1, .exa {
+  font-size: 3.0518rem;
+  line-height: 1.6648;
+}
+
+h2, .peta {
+  font-size: 2.4414rem;
+  line-height: 1.8729;
+}
+
+h3, .tera {
+  font-size: 1.9531rem;
+  line-height: 1.0535;
+}
+
+h4, .giga {
+  font-size: 1.5625rem;
+  line-height: 1.1852;
+}
+
+h5, .mega {
+  font-size: 1.25rem;
+  line-height: 1.3333;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.8000rem;
+  line-height: 1.6875;
+}
+
+.micro {
+  font-size: 0.6400rem;
+  line-height: 1.8984;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	position: relative;
+}
+
+ul li:before {
+	content: "•";
+	color: rgb(194,107,0);
+	position: absolute;
+	left: -1em;
+}
+
+caption {
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th[scope=col] {
+	color: rgb(0,12,47);
+}
+	
+thead th {
+	border-bottom: 2px solid rgb(125,125,125);
+}
+
+tr th {
+	color: rgb(194,107,0);
+}
+
+table th,td {
+	padding: 0.5em;
+	border-bottom: 2px solid rgb(125,125,125);
+ }
+ 
+ cite {
+	 color: rgb(194,107,0);
+ }
+
+
+
