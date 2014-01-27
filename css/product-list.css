@@ -2,13 +2,15 @@
 /* CSS Document */
 
 .product-name {
-	text-align: center;
+	text-align: left;
+	margin-top: 1rem;
 }
 
 .description {
-	text-align: center;
+	text-align: left;
 }
 
 .price {
-	text-align: center;
+	text-align: left;
+	color: rgb(194,107,0);
 }
