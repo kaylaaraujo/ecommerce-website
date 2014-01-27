@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bucket {
+	background-color: rgb(194,107,0);
+}
+
+h2 {
+	color: white;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	color: white;
+	margin-bottom: 1rem;
+}
+
+p {
+	color: white;
+	margin-bottom: 1rem;
+}
