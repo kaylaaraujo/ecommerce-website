@@ -1,7 +1,7 @@
 
 .grid {
-	border: 1px solid red;
 	overflow: hidden;
+	text-align: center;
 }
 
 .unit {
@@ -11,6 +11,7 @@
 
 .unit-s-1 {
 	width: 100%;
+	border-bottom: 1px solid rgba(206,206,206,1.00);
 }
 
 .unit-s-1-2 {
@@ -44,6 +45,10 @@
 	
 	.unit-l-2-3 {
 		width: 66.6666%;
+	}
+	
+	.unit-l-1-8 {
+		width: 12.5%;
 	}
 }
 
