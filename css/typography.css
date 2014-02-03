@@ -24,22 +24,19 @@ html {
 
 a,
 a:link {
-        color: rgb(194,107,0);
+        color: rgb(0,12,47);
         text-decoration: none;
-        border-bottom: 0.1em solid rgba(194,107,0,.8);
-        transition: all 200ms linear;
+        transition: all 150ms linear;
 }
 
 a:visited {
         color: rgb(125,125,125);
-        border-bottom-color: rgb(125,125,125);
 }
 
 a:hover,
 a:focus,
 a:active {
         color: rgba(194,107,0,.5);
-        border-bottom-color: rgba(194,107,0,.5);
 }
 
 h1, h2, h3, h4, h5, h6,
