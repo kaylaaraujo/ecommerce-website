@@ -5,3 +5,15 @@
 	text-align: center;
 }
 
+.logo {
+	width: 100%;
+	text-align: center;
+}
+
+@media only screen and (min-width: 30em) {
+	
+	.logo {
+		width: 20%;
+	}
+}
+
