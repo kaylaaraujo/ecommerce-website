@@ -40,10 +40,16 @@ a:active {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl,
+ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
   color: rgb(0,12,47);
+}
+
+.p-typo {
+	margin: 1.5rem 0;
+	color: rgb(0,12,47);
+	padding: 1rem;
 }
 
 dt {
