@@ -49,7 +49,7 @@ blockquote, table, hr {
 .p-typo {
 	margin: 1.5rem 0;
 	color: rgb(0,12,47);
-	padding: 1rem;
+	padding: 0 5%;
 }
 
 dt {
