@@ -106,6 +106,15 @@ small, .milli {
   line-height: 1.8984;
 }
 
+.thankyou {
+	padding: 0 5%;
+}
+
+.thankyou-emph {
+	color: rgb(194,107,0);
+}
+	
+
 ul {
         list-style-type: none;
 }
