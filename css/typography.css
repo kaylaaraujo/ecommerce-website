@@ -18,32 +18,32 @@ html {
 }
 
 ::selection {
-        background-color: rgba(194,107,0,.3);
-        color: rgb(194,107,0);        
+	background-color: rgba(194,107,0,.3);
+	color: rgb(194,107,0);        
 }
 
 a,
 a:link {
-        color: rgb(0,12,47);
-        text-decoration: none;
-        transition: all 150ms linear;
+	color: rgb(0,12,47);
+	text-decoration: none;
+	transition: all 150ms linear;
 }
 
 a:visited {
-        color: rgb(125,125,125);
+	color: rgb(125,125,125);
 }
 
 a:hover,
 a:focus,
 a:active {
-        color: rgba(194,107,0,.5);
+	color: rgba(194,107,0,.5);
 }
 
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 1.5rem;
-  color: rgb(0,12,47);
+	margin: 0 0 1.5rem;
+	color: rgb(0,12,47);
 }
 
 .p-typo {
@@ -116,45 +116,45 @@ small, .milli {
 	
 
 ul {
-        list-style-type: none;
+	list-style-type: none;
 }
 
 ul li {
-        position: relative;
+	position: relative;
 }
 
 ul li:before {
-        content: "•";
-        color: rgb(194,107,0);
-        position: absolute;
-        left: -1em;
+	content: "•";
+	color: rgb(194,107,0);
+	position: absolute;
+	left: -1em;
 }
 
 caption {
-        text-align: left;
+	text-align: left;
 }
 
 table {
-        border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 th[scope=col] {
-        color: rgb(0,12,47);
+	color: rgb(0,12,47);
 }
         
 thead th {
-        border-bottom: 2px solid rgb(125,125,125);
+	border-bottom: 2px solid rgb(125,125,125);
 }
 
 tr th {
-        color: rgb(194,107,0);
+	color: rgb(194,107,0);
 }
 
 table th,td {
-        padding: 0.5em;
-        border-bottom: 2px solid rgb(125,125,125);
+	padding: 0.5em;
+	border-bottom: 2px solid rgb(125,125,125);
  }
  
- cite {
-         color: rgb(194,107,0);
+cite {
+	color: rgb(194,107,0);
  }
