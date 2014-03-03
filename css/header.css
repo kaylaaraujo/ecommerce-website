@@ -11,3 +11,7 @@
 	margin-right: auto;
 	margin-bottom: 1.5rem;
 }
+
+.current {
+	background-color: rgba(224,224,224,1.00);
+}
