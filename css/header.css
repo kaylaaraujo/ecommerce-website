@@ -15,3 +15,10 @@
 .current {
 	background-color: rgba(227,227,227,1.00)
 }
+
+.banner {
+	background: #fff url("../images/banner.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 5rem 1rem 1rem;
+	text-align: center;
+}
