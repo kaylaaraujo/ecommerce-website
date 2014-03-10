@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .footer {
-	background-color: rgba(231,231,231,1.00);
+	background-color: #fff;
 }
 
 .centered {
@@ -10,7 +10,7 @@
 }
 
 .social {
-	width: 23%;
+	width: 29.25%;
 	margin: 0 2% 1.5rem 2%;
 }
 
@@ -18,21 +18,34 @@ h6 {
 	margin-top: 1.5rem;
 }
 
+.footer-nav {
+		margin-top: 1.5rem;
+	}
+
 @media only screen and (min-width: 30em) {
 	.social {
-		width: 8%;
 		margin: 0 1% 1.5rem 1%;
 	}
 	
 	h6 {
 		height: 0.5rem;
 	}
+	
+	.footer-nav {
+		clear: both;
+	}
+}	
+
+@media only screen and (min-width: 43.75em) {
+	.footer-nav {
+		clear: none;
+	}
 }
 
 @media only screen and (min-width: 50em) {
 	
 	.social {
-		width: 5%;
+		max-width: 50px;
 	}
 	
 	.footer-nav {
