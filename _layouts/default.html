@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>{{page.title}} · Shiny Things Jewellery</title>
+<title>{{page.title}} · Shiny Things</title>
 <meta name="description" content="{{page.meta}}">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -20,6 +20,8 @@
 <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/buckets.css" rel="stylesheet">
+<link href="{{site.baseurl}}/css/promos.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -31,45 +33,45 @@
 			
 		<div class="grid">
 			
-			<div class="unit gutter unit-s-1 unit-m-1-1 unit-l-2-8">
+			<div class="unit unit-s-1 unit-m-1-1 unit-l-2-8">
 				<form method="get" action="/search" id="search">
 				<input name="q" type="text" size="40" placeholder="Search..." />
 				</form>
 			</div>
 			
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/about.html"class="current">About</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/about.html"class="{% if page.url == '/about.html' %}current{% endif %}">About</a></h2>	
 			</div>
 				
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/rings.html"class="{% if page.url == '/rings.html' %}current{% endif %}">Rings</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/rings.html"class="{% if page.url == '/rings.html' %}current{% endif %}">Rings</a></h2>	
 			</div>
 				
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/necklaces.html"class="{% if page.url == '/necklaces.html' %}current{% endif %}">Necklaces</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/necklaces.html"class="{% if page.url == '/necklaces.html' %}current{% endif %}">Necklaces</a></h2>	
 			</div>
 				
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/bracelets.html"class="{% if page.url == '/bracelets.html' %}current{% endif %}">Bracelets</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/bracelets.html"class="{% if page.url == '/bracelets.html' %}current{% endif %}">Bracelets</a></h2>	
 			</div>
 				
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/earrings.html"class="{% if page.url == '/earrings.html' %}current{% endif %}">Earrings</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/earrings.html"class="{% if page.url == '/earrings.html' %}current{% endif %}">Earrings</a></h2>	
 			</div>
 				
-			<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered">
-				<a href="{{site.baseurl}}/contact.html"class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/contact.html"class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></h2>	
 			</div>
 			
 		</div>
 		
 	</header>
+	
+	{% if page.showbanner %}
+	<div class="banner">
+		<h1>{{page.bannertext}}</h1>
+	</div>
+	{% endif %}
 
 	{{content}}
 
@@ -90,28 +92,28 @@
 			</div>
 			
 			<div class="footer-nav">	
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered"><a href="{{site.baseurl}}/about.html">About</a></h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+					<h6 class="centered"><a href="{{site.baseurl}}/about.html"class="{% if page.url == '/about.html' %}current{% endif %}">		About</a></h6>	
 				</div>
 				
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-						<h6 class="centered">Rings</h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+						<h6 class="centered"><a href="{{site.baseurl}}/rings.html"class="{% if page.url == '/rings.html' %}current{% endif %}">Rings</a></h6>	
 				</div>
 					
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered">Necklaces</h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+					<h6 class="centered"><a href="{{site.baseurl}}/necklaces.html"class="{% if page.url == '/necklaces.html' %}current{% endif %}">Necklaces</a></h6>	
 				</div>
 					
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered">Bracelets</h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+					<h6 class="centered"><a href="{{site.baseurl}}/bracelets.html"class="{% if page.url == '/bracelets.html' %}current{% endif %}">Bracelets</a></h6>	
 				</div>
 					
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered">Earrings</h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+					<h6 class="centered"><a href="{{site.baseurl}}/earrings.html"class="{% if page.url == '/earrings.html' %}current{% endif %}">Earrings</a></h6>	
 				</div>
 					
-				<div class="unit gutter unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered">Contact</h6>	
+				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+					<h6 class="centered"><a href="{{site.baseurl}}/contact.html"class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></h6>	
 				</div>
 			</div>
 		</div>
