@@ -2,19 +2,27 @@
 layout: default
 title: Home
 meta: A jewellery website from designer Nora Chittick.
+showbanner: yes
 ---
 <div class="grid">
 
+	<div class="gutter unit unit-s-1 unit-m-1-1 promo-unit-l-1-1">
+		{% include promo-large.html title="SPRING SALE" desc="20-40% off Storewide!" desc2="Some exceptions do apply" %}
+	</div>
+</div>
+
+<div class="grid">
+
 	<div class="gutter unit unit-s-1 unit-m-1-3 promo-unit-l-1-3">
-		{% include promo-small.html title="Rings" sale="30% off!" desc="Free polish cloth with $50 purchase." %}
+		{% include promo-small.html title="Rings" desc="30% off!" desc2="Free polish cloth with $50 purchase" %}
 	</div>
 	
 	<div class="gutter unit unit-s-1 unit-m-1-3 promo-unit-l-1-3">
-		{% include promo-small.html title="Bracelets" sale="40% off!" desc="New collection does not apply." %}
+		{% include promo-small.html title="Bracelets" desc="40% off!" desc2="New collection does not apply" %}
 	</div>
 	
 	<div class="gutter unit unit-s-1 unit-m-1-3 promo-unit-l-1-3">
-		{% include promo-small.html title="Necklaces" sale="25% off!" desc="Gift wrap options available". %}
+		{% include promo-small.html title="Necklaces" desc="25% off!" desc2="Gift wrap options available" %}
 	</div>
 
 </div>
