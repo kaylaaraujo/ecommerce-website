@@ -2,7 +2,12 @@
 /* CSS Document */
 
 .centered {
-	text-align: center;
+	text-align: center;	
+}
+
+.center-block {
+	display: block;
+	margin: 0 auto;
 }
 
 .logo {
@@ -12,13 +17,19 @@
 	margin-bottom: 1.5rem;
 }
 
-.current {
-	background-color: rgba(227,227,227,1.00)
+.current, .current:link, .current:visited {
+	color: rgba(0,54,110,1.00);
 }
 
 .banner {
 	background: #fff url("../images/banner.jpg") no-repeat center center;
 	background-size: cover;
 	padding: 5rem 1rem 1rem;
+	margin-bottom: 1.5rem;
 	text-align: center;
+}
+
+.banner h1 {
+	color: #FFFFFF;
+	text-align: right;
 }
