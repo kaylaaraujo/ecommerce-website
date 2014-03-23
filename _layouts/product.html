@@ -4,12 +4,20 @@ layout: default
 
 <h1>{{page.name}}</h1>
 
-<dl>
-	<img src="{{site.baseurl}}/images/products/{{page.image}}" alt="photo of {{page.title}}">
-	<dt>Price</dt>
-	<dd>{{page.price}}</dd>
-	<dt>Description</dt>
-	<dd>{{page.desc}}</dd>
-</dl>
+<div class="grid-left">
+	<div class="unit unit-m-1-2">
+		<img src="{{site.baseurl}}/images/products/{{page.image}}" class="img-flex" alt="photo of {{page.title}}">
+	</div>
+	
+	<div class="unit unit-m-1-2">
+		<dl class="no-centered">
+			<dt class="giga">Price</dt>
+			<dd>{{page.price}}</dd>
+			<dt class="giga">Description</dt>
+			<dd>{{page.desc}}</dd>
+		</dl>
 
-{{content}}
+		{{content}}
+		
+	</div>
+</div>
