@@ -1,9 +1,9 @@
-<ul>
+<ul class="list-group">
 	{% for ring in site.pages %}
 		{% if ring.category == include.category %}
-		<li>
+		<li class="list-group-item unit unit-m-1-2 unit-l-1-3 unit-l-1-4 unit-l-1-5">
 			<a href="{{site.baseurl}}{{ring.url}}">
-			<img src="{{site.baseurl}}/images/products/{{ring.image}}" alt="photo of {{ring.title}}">
+			<img src="{{site.baseurl}}/images/products/{{ring.image}}" class="img-flex" alt="photo of {{ring.title}}">
 			<h4>{{ring.name}}</h4>
 			<h5>{{ring.price}}</h5>
 			</a>
