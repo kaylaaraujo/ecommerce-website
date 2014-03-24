@@ -1,15 +1,16 @@
 ---
 layout: default
+title: Product
 ---
 
 <h1>{{page.name}}</h1>
 
 <div class="grid-left">
-	<div class="unit unit-m-1-2">
-		<img src="{{site.baseurl}}/images/products/{{page.image}}" class="img-flex" alt="photo of {{page.title}}">
+	<div class="unit unit-m-1-3">
+		<img src="{{site.baseurl}}/images/products/{{page.image}}" class="img-flex img-width" alt="photo of {{page.title}}">
 	</div>
 	
-	<div class="unit unit-m-1-2">
+	<div class="unit unit-m-1-3">
 		<dl class="no-centered">
 			<dt class="giga">Price</dt>
 			<dd>{{page.price}}</dd>
@@ -18,6 +19,8 @@ layout: default
 		</dl>
 
 		{{content}}
+		
+		<a class="btn giga" href="{{site.baseurl}}/cart.html">ADD TO CART</a>
 		
 	</div>
 </div>
