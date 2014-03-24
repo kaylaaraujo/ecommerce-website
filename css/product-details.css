@@ -5,3 +5,7 @@
 .buy-button {
 	text-align:left;
 }
+
+.img-width {
+	max-width: 400px;
+}
