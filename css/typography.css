@@ -26,7 +26,7 @@ a,
 a:link {
 	color: rgb(125,125,125);
 	text-decoration: none;
-	transition: all 150ms linear;
+	transition: all 100ms linear;
 }
 
 a:visited {
@@ -160,11 +160,18 @@ cite {
 	color: rgb(194,107,0);
  }
  
- dd, dt {
+ dt {
 	 text-align: left;
 	 margin: 0;
  }
  
+ dd {
+	border-bottom: medium;
+	border-bottom-color: rgb(125,125,125);
+ 	text-align: left;
+	margin: 0;
+ }
+
  .search {
 	 text-align: center;
 	 font-size: 1.5rem;
