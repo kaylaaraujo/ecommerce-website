@@ -29,13 +29,16 @@
 
 	<header>
 		<div class="centered">
-			<a href="{{site.baseurl}}/index.html"><img src="../images/logo.svg" class="logo" alt="logo"></a>
+			<a href="{{site.baseurl}}/index.html"><img src="../images/logo.svg" class="logo" alt="Shiny Things Logo"></a>
 		</div>
 			
 		<div class="grid">
 			
 			<div class="unit unit-s-1 unit-m-1-1 unit-l-2-8">
-				{% include search-field.html %}
+				<form method="get" action="{{site.baseurl}}/search.html" id="search">
+				<label class="search" for="searchfield">search</label>
+				<input name="q" id="searchfield" type="text" size="40" placeholder="Search..." />
+				</form>
 			</div>
 			
 			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
@@ -78,22 +81,22 @@
 		<div class="footer unit unit-s-1-2 unit-m-1-3 unit-l-2-8">
 			<div class="centered">
 				<div class="unit social">
-					<img src="../images/facebook-grey.svg" alt="facebook">
+					<a href="#"><img src="../images/facebook-grey.svg" alt="facebook"></a>
 				</div>
 				
 				<div class="unit social">
-					<img src="../images/twitter-grey.svg" alt="facebook">
+					<a href="#"><img src="../images/twitter-grey.svg" alt="twitter"></a>
 				</div>
 				
 				<div class="unit social">
-					<img src="../images/pinterest-grey.svg" alt="facebook">
+					<a href="#"><img src="../images/pinterest-grey.svg" alt="pinterest"></a>
 				</div>
 			</div>
 		</div>
 			
 			<div class="footer-nav unit-l-6-8">	
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered"><a href="{{site.baseurl}}/about.html"class="{% if page.url == '/about.html' %}current{% endif %}">		About</a></h6>	
+					<h6 class="centered"><a href="{{site.baseurl}}/about.html"class="{% if page.url == '/about.html' %}current{% endif %}">About</a></h6>	
 				</div>
 				
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
