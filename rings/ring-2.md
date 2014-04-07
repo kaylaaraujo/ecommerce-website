@@ -12,3 +12,5 @@ image: ring2.jpg
 - Metal: Sterling Silver
 - Bubbles: Black Agate
 - Hand-Crafted
+
+Click [HERE] (http://www.georgjensen.com/global/jewellery/rings/moonlight-grapes-ring-sterling-silver-with-black-agate-small) to go to designer Georg Jensen's website 

@@ -11,3 +11,5 @@ image: ring4.jpg
 
 - Metal: Sterling Silver
 - Hand-Crafted
+
+Click [HERE] (http://www.georgjensen.com/global/jewellery/rings/moonlight-blossom-ring-sterling-silver) to go to designer Georg Jensen's website

@@ -12,3 +12,6 @@ image: ring5.jpg
 - Metal: Sterling Silver
 - Center: Amber
 - Hand-Crafted
+
+Click [HERE]
+(http://www.thejewellerychannel.tv/ProductDetail.aspx?StockCode=1407977) to go to the designer's webpage

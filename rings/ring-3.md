@@ -12,3 +12,5 @@ image: ring3.jpg
 - Metal: Sterling Silver
 - Center: Black Agate
 - Hand-Crafted
+
+Click [HERE] (http://www.georgjensen.com/global/jewellery/rings/moonlight-blossom-sterling-silver-with-black-agate) to go to designer Georg Jensen's website

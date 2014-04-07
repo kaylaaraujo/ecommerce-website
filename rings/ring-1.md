@@ -12,3 +12,7 @@ image: ring1.jpg
 - Metal: Pewter
 - Glass: Deep Red
 - Hand Crafted
+
+Anne Marie Chagnon
+
+Click here to see Anne Marie Chagnon's [other designs](http://magpiejewellery.com/collections/vendors?q=Anne+Marie+Chagnon)
