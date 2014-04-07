@@ -26,6 +26,10 @@
 	transition: all 0.7s ease 0s;
 }
 
+.search {
+	position: absolute;
+	top: -10em;
+}
 /*#search input[type="text"]:focus {
     width: 200px;
     }*/
