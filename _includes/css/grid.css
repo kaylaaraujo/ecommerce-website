@@ -4,6 +4,12 @@
 	text-align: center;
 }
 
+.nav-grid {
+	overflow: hidden;
+	text-align: center;
+	clear: right;
+}
+
 .grid-left {
 	overflow: hidden;
 	text-align: left;
@@ -32,6 +38,8 @@
 .unit-s-1-border {
 	width: 100%;
 	border-bottom: 1px solid rgba(206,206,206,1.00);
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 .unit-s-1-2 {
@@ -82,8 +90,16 @@
 }
 
 @media only screen and (min-width: 43.75em) {
+	.unit-l-1-9 {
+		width: 11.1%;
+	}
+	
 	.unit-l-2-8 {
 		width: 25%;
+	}
+	
+	.unit-l-2-9 {
+		width: 22.2%;
 	}
 	
 	.unit-l-1-8 {
@@ -96,6 +112,7 @@
 	
 	unit-l-6-8 {
 	width: 75%;
+	}
 }
 
 @media only screen and (min-width: 50em) {
@@ -131,6 +148,14 @@
 
 	.unit-l-1-5 {
 		width: 20%;
+	}
+	
+	.unit-l-1-4 {
+	width: 25%;
+	}
+
+	.unit-l-3-4 {
+		width: 75%;
 	}
 }
 
