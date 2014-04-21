@@ -3,12 +3,14 @@ layout: product
 category: bracelets
 name: Natalie
 price: $49.99
-desc: Silver ring with deep red glass
+desc: Silver bracelet
 image: bracelet1.jpg
 ---
 
 ## Features
 
-- Metal: Pewter
-- Glass: Deep Red
+- Metal: Silver
+- Pearl Accents
 - Hand Crafted
+
+Click [HERE] (http://www.georgjensen.com) to go to designer Georg Jensen's website 

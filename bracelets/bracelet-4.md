@@ -3,12 +3,14 @@ layout: product
 category: bracelets
 name: Ellie
 price: $79.99
-desc: Silver ring with deep red glass
+desc: Silver bracelet
 image: bracelet4.jpg
 ---
 
 ## Features
 
-- Metal: Pewter
-- Glass: Deep Red
+- Metal: Sterling Silver
+- Black Stone
 - Hand Crafted
+
+Click [HERE] (http://www.georgjensen.com) to go to designer Georg Jensen's website 
