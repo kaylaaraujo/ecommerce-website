@@ -1,5 +1,3 @@
-@charset "UTF-8";
-/* CSS Document */
 
 #search {
 
@@ -11,7 +9,7 @@
 	font: normal 100%/1.5 Open Sans Condensed, sans-serif;
 	color: #bebebe;
 	width: 100%;
-	margin-bottom: 1.5rem;
+	margin-bottom: 0.5rem;
     /*width: 150px;*/
 	padding: 6px 15px 6px 35px;
 	-webkit-border-radius: 20px;
