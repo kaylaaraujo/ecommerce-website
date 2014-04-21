@@ -17,7 +17,7 @@
 	<header>
 		
 		<div class="centered">
-			<a href="{{site.baseurl}}/index.html"><img src="../images/logo.svg" class="logo" alt="Shiny Things Logo"></a>
+			<a href="{{site.baseurl}}/index.html"><img src="../images/st-logo-01.svg" class="logo" alt="Shiny Things Logo"></a>
 		</div>
 			
 		<div class="grid">
@@ -36,7 +36,7 @@
 			</div>
 			
 			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
-				<h2 class="mega centered"><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a></h2>	
+				<h2 class="mega centered"><a href="{{site.baseurl}}/about.html" class="{% if page.url contains '/about.html' %}current{% endif %}">About</a></h2>	
 			</div>
 				
 			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
