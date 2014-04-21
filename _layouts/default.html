@@ -14,42 +14,48 @@
 </head>
 <body>
 
-
 	<header>
+		
 		<div class="centered">
 			<a href="{{site.baseurl}}/index.html"><img src="../images/logo.svg" class="logo" alt="Shiny Things Logo"></a>
 		</div>
 			
 		<div class="grid">
 			
-			<div class="unit unit-s-1 unit-m-1-1 unit-l-2-8">
+			<div class="unit unit-s-2-3 unit-m-1-1 unit-l-2-9">
 				<form method="get" action="{{site.baseurl}}/search.html" id="search">
 				<label class="search" for="searchfield">search</label>
 				<input name="q" id="searchfield" type="text" size="40" placeholder="Search..." />
 				</form>
 			</div>
 			
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+			<div>
+				<div class="icon unit unit-s-1-3 unit-m-1-3 unit-l-1-9">
+					<a href="../cart.html"><img src="../images/bag-icon.jpg" class="bag"></a>
+				</div>
+			</div>
+			
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
 				<h2 class="mega centered"><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/about.html' %}current{% endif %}">About</a></h2>	
 			</div>
 				
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered"><a href="{{site.baseurl}}/rings/" class="{% if page.url contains 'rings' %}current{% endif %}">Rings</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/rings/" class="{% if page.url contains '/rings' %}current{% endif %}">Rings</a></h2>	
 			</div>
 				
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
 				<h2 class="mega centered"><a href="{{site.baseurl}}/necklaces/" class="{% if page.url contains 'necklaces' %}current{% endif %}">Necklaces</a></h2>	
 			</div>
 				
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered"><a href="{{site.baseurl}}/bracelets.html" class="{% if page.url == '/bracelets.html' %}current{% endif %}">Bracelets</a></h2>	
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/bracelets/" class="{% if page.url contains 'bracelets' %}current{% endif %}">Bracelets</a></h2>	
 			</div>
 				
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-				<h2 class="mega centered"><a href="{{site.baseurl}}/earrings.html" class="{% if page.url == '/earrings.html' %}current{% endif %}">Earrings</a></h2>	 
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
+				<h2 class="mega centered"><a href="{{site.baseurl}}/earrings/" class="{% if page.url contains 'earrings' %}current{% endif %}">Earrings</a></h2>	 
 			</div>
 				
-			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
+			<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-9">
 				<h2 class="mega centered"><a href="{{site.baseurl}}/contact.html" class="{% if page.url == '/contact.html' %}current{% endif %}">Contact</a></h2>	
 			</div>
 			
@@ -88,7 +94,7 @@
 				</div>
 				
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered"><a href="{{site.baseurl}}/rings/"class="{% if page.url contains 'rings' %}current{% endif %}">Rings</a></h6>	
+					<h6 class="centered"><a href="{{site.baseurl}}/rings/"class="{% if page.url contains '/rings' %}current{% endif %}">Rings</a></h6>	
 				</div>
 					
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
@@ -96,11 +102,11 @@
 				</div>
 					
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered"><a href="{{site.baseurl}}/bracelets.html"class="{% if page.url == '/bracelets.html' %}current{% endif %}">Bracelets</a></h6>	
+					<h6 class="centered"><a href="{{site.baseurl}}/bracelets/" class="{% if page.url contains 'bracelets' %}current{% endif %}">Bracelets</a></h6>	
 				</div>
 					
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
-					<h6 class="centered"><a href="{{site.baseurl}}/earrings.html"class="{% if page.url == '/earrings.html' %}current{% endif %}">Earrings</a></h6>	
+					<h6 class="centered"><a href="{{site.baseurl}}/earrings/" class="{% if page.url contains 'earrings' %}current{% endif %}">Earrings</a></h6>	
 				</div>
 					
 				<div class="unit unit-s-1-border unit-m-1-3 unit-l-1-8">
